@@ -16,7 +16,7 @@ namespace Calender
 
             DateTime dateFirst = DateTime.Parse(String.Format("{0}/{1}/1", dateNow.Year,
                 dateNow.Month));
-            DisplayCalender(dateFirst);
+            //DisplayCalender(dateFirst);
             Console.ReadLine();
         }
         static void DisplayCalender(DateTime dateFirst)
